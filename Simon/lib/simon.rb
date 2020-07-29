@@ -38,7 +38,7 @@ class Simon
   end
 
   def require_sequence
-    puts "Repeat the Sequence by Naming the cCrrect Collors"
+    puts "Repeat the Sequence by Naming the Correct Colors"
     @seq.each do |color|
       guess = gets.chomp
       if color[0] != guess
