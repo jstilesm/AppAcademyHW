@@ -32,3 +32,4 @@ class ApplicationController < ActionController::Base
     redirect_to new_session_url if current_user.nil?
   end
 end
+

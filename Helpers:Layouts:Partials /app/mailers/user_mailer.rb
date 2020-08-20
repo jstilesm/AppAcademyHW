@@ -7,3 +7,5 @@ class UserMailer < ApplicationMailer
         mail(to: user.email, subject: 'Welcome to My Cats Site')
     end
 end
+
+p
